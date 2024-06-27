@@ -1,4 +1,6 @@
 server/db_data
+server/instance
+instance
 
 *.pyc
 /.vagrant
