@@ -39,7 +39,7 @@ class UserSchema(ma.Schema):
 
 class TokenSchema(ma.Schema):
     class Meta:
-        fields = ("id", "nome", "email", "token")
+        fields = ("id", "nome", "email", "data_nascimento", "token")
 
 user_schema = UserSchema()
 token_schema = TokenSchema()
