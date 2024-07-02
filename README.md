@@ -1,13 +1,24 @@
-BD: MariaDB
-Server: Python3
-Client: React + vite
+# BD: sqlite
+# Server: Python3
+# Client: React + vite
 
-pip install flask flask-jsonpify flask-sqlalchemy flask_marshmallow flask_cors marshmallow-sqlalchemy modal PyJWT python-dotenv flask_httpauth
+# Server
+    cd /server/
+    python -m venv venv
+    
+    pip install flask flask-jsonpify flask-sqlalchemy flask_marshmallow flask_cors marshmallow-sqlalchemy modal PyJWT python-dotenv flask_httpauth
 
-#Server
+    pip install -r requirements.txt
+    pyhton main.py
 
-#Client
+Obs: sempre que rodar o servidor o banco é dropado e é recriado o usuário admin@koredata.com.br e a senha koredata123
+
+# Client
+    cd /client/
+
     npm install
     npm run dev
-        usuário e senha default:
-            admin:koredata123
+        
+    usuário e senha default:
+        admin@koredata.com.br
+        koredata123
