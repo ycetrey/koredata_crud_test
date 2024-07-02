@@ -7,7 +7,7 @@
     python -m venv venv
     
     pip install flask flask-jsonpify flask-sqlalchemy flask_marshmallow flask_cors marshmallow-sqlalchemy modal PyJWT python-dotenv flask_httpauth
-
+    ou
     pip install -r requirements.txt
     pyhton main.py
 
