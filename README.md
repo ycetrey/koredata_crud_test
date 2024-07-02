@@ -9,7 +9,7 @@
     pip install flask flask-jsonpify flask-sqlalchemy flask_marshmallow flask_cors marshmallow-sqlalchemy modal PyJWT python-dotenv flask_httpauth
     ou
     pip install -r requirements.txt
-    pyhton main.py
+    python main.py
 
 Obs: sempre que rodar o servidor o banco é dropado e é recriado o usuário admin@koredata.com.br e a senha koredata123
 
