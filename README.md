@@ -2,10 +2,12 @@ BD: MariaDB
 Server: Python3
 Client: React + vite
 
-pip install flask flask-jsonpify flask-sqlalchemy flask_marshmallow flask_cors marshmallow-sqlalchemy modal PyJWT
+pip install flask flask-jsonpify flask-sqlalchemy flask_marshmallow flask_cors marshmallow-sqlalchemy modal PyJWT python-dotenv flask_httpauth
 
-run 
-    docker compose up -d --build
+#Server
 
-default user and pass:
-    admin:koredata123
+#Client
+    npm install
+    npm run dev
+        usuário e senha default:
+            admin:koredata123
